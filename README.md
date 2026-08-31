@@ -17,7 +17,31 @@
             <p>Feito à mão com os melhores grãos de cacau selecionados.</p>
             <div class="selo-contato">Contato: contato@chocolatier.com</div>
         </div>
-    </header>
+    </headss
+
+/* Trava a tela para impedir rolagem */
+html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Georgia', serif;
+}
+
+.capa-chocolate {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://unsplash.com'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}er>
 
 </body>
 </html>
